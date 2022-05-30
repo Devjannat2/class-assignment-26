@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header section */
+.header-section {
+    margin-top: 70px;
+}
+.header-title {
+    margin-top: 60px;
+}
+.header-title h5{
+    color: #3763eb;
+}
+.header-title h2 {
+    margin-top: 20px;
+    position: relative;
+}
+.header-title h2::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 55px;
+    top: 81px;
+    left: 5px;
+    background-color: #3763eb;
+}
+.header-title p{
+    color: #888095;
+    margin-top: 30px;
+}
+.tab-items {
+    border: 1px solid #ddd;
+    padding: 30px;
+    width: 294px;
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab-items:hover{
+    background-color: #f6f9fc;
+    transition: .5s;
+}
+/* blog section */
+.blog-section{
+    margin-top: 50px;
+}
+.header-title h1 {
+    margin-bottom: 39px;
+    position: relative;
+}
+.header-title h1::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 55px;
+    top: 52px;
+    left: 610px;
+    background-color: #3763eb;
+}
+.blog-title{}
+.blog-title h2{
+    margin-top: 20px;
+}
+.blog-title p{
+    color: #888095;
+    margin-top: 15px;
+}
+.blog-tab{
+   
+}
+.image{
+    position: relative;
+}
+.image h4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #5572fd;
+    padding: 5px 0px;
+    border-radius: 30px;
+}
+.image h4 span{
+    display: inline-block;
+}
+.image h4 span img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.image h4 a {
+    color: white !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 3px 7px;
+}
+/* footer section */
+.footer-section{
+    background-color: #081828;
+   padding-top: 100px;
+   padding-bottom: 20px;
+}
+.logo img{
+    width: 200px;
+}
+.logo-title{}
+.logo-title h5 {
+    color: white;
+    margin-top: 25px;
+}
+.logo-title ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.logo-title ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.logo-title ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -44px;
+}
+.logo-title ul li a span{
+    display: block;
+    color: white;
+  
+}
+.inner-title{}
+.inner-title h4{
+    color: white;
+    position: relative;
+}
+.inner-title h4::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 2px;
+    top: 0px;
+    left: -11px;
+    background-color: #3763eb;
+}
+.inner-title ul{
+    list-style: none;
+}
+.inner-title ul li {
+    margin-left: -44px;
+}
+.inner-title ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 2.7rem;
+}
+.border-b{
+    border-bottom: 1px solid #ddd;
+}
